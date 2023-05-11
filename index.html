@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>V.Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">V.PortFolio</div>
+            <ul class="navItems">
+                <li><a href="#">Home</a></li>
+                <li><a href="trabalhos.html" target="_blank">Trabalhos feitos</a></li>
+            </ul>
+        </nav>
+        <div class="wrapper">
+            <div class="cols cols0">
+                <span class="topline">Olá</span>
+                <h1>Quem sou eu <span class="multiText"></span>
+                <p></p>
+                <div class="btns">
+                    <a href="Vitor Azevedo CV.docx.pdf" target="_blank"><button>Baixe o CV</button></a>
+                </div>
+            </div>
+        </div class="cols cols1">
+          <div class="imgbox">
+            <img src="assunto.png" alt="">
+           </div>
+          </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typingEffect = new Typed(".multiText", {
+            strings: ["Coder", "WebDesigner", "Full Stack Developer"],
+            loop : true,
+            typedSpeed : 100,
+            backSpeed : 190,
+            backDelay : 1500
+        })
+    </script>
+</body>
+</html>
