@@ -238,3 +238,35 @@ button:hover {
         width: 155%;
     }
 }
+
+.img-group {
+    width: calc(50% - 20px); /* Alterado para ocupar metade da largura disponível */
+    margin-bottom: 40px; /* Aumentado o espaçamento inferior */
+}
+
+@media screen and (max-width: 768px) {
+    .navItems {
+        flex-direction: column; /* Alterado para empilhar os itens do menu verticalmente */
+        align-items: center; /* Centralizado os itens do menu */
+    }
+
+    .navItems li {
+        margin: 10px 0; /* Alterado para espaçamento uniforme entre os itens do menu */
+    }
+
+    .wrapper {
+        padding: 80px 20px; /* Ajustado o espaçamento superior e inferior */
+    }
+
+    h1 {
+        font-size: 2.5em; /* Reduzido o tamanho da fonte para telas menores */
+    }
+
+    .btns {
+        margin-top: 30px; /* Reduzido o espaçamento superior do botão */
+    }
+
+    .img-group {
+        width: calc(100% - 20px); /* Alterado para ocupar toda a largura disponível */
+    }
+}
